@@ -12,7 +12,7 @@ RIGHT JOIN payment
 ON customer.customer_id=payment.payment_id;
 
 
-customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.
+--customer tablosu ile rental tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz FULL JOIN sorgusunu yazınız.
 
 SELECT customer.first_name,customer.last_name,rental.rental_id FROM customer
 FULL JOIN rental
